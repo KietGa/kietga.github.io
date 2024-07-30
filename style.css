@@ -1,0 +1,25 @@
+.styleSlide {
+    height: 700px;
+    object-fit: cover;
+}
+
+.styleHeader {
+    padding: 0px 0px 30px 0px;
+}
+
+.styleNew {
+    border-color: aqua;
+}
+
+.styleUpdate {
+    border-color: green;
+}
+
+.styleHot {
+    border-color: yellow;
+}
+
+.styleClose {
+    border-color: red;
+}
+
