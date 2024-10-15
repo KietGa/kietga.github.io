@@ -15,6 +15,25 @@ function carousel() {
   setTimeout(carousel, 4000);  
 }
 
+function ThrowADice()
+{
+  let ran = Math.floor(Math.random() * 6);
+  alert(ran);
+}
+
+function FlipACoin()
+{
+  let ran = Math.floor(Math.random() * 2);
+  if (ran == 1)
+  {
+    alert("Head");
+  }
+  else
+  {
+    alert("Tail");
+  }
+}
+
 function RandomGame()
 {
   let ran = Math.floor(Math.random() * gameArr.length);
